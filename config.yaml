@@ -13,9 +13,6 @@ tls:
 
 # Management API settings
 remote-management:
-enabled: true
-  secret-key: "admin"   # ← 改成你想要的密码，例如 MyStrongPass123!
-  allow-remote: true
   # Whether to allow remote (non-localhost) management access.
   # When false, only localhost can access management endpoints (a key is still required).
   allow-remote: false
